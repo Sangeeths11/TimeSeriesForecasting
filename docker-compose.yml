@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  timeseries-analysis:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
