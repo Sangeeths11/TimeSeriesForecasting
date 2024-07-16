@@ -1,14 +1,14 @@
 
-# TimeSeriesForecastingTool
+# TimeSeriesForecasting
 
 ## Übersicht
 
-**TimeSeriesForecastingTool** ist ein End-to-End-Projekt zur Analyse und Vorhersage von Zeitreihen mit Python. Das Projekt nutzt Jupyter Notebooks zur Datenanalyse, Python-Skripte zur Datenverarbeitung und Modellierung sowie Docker zur Bereitstellung einer konsistenten Entwicklungsumgebung.
+**TimeSeriesForecasting** ist ein End-to-End-Projekt zur Analyse und Vorhersage von Zeitreihen mit Python. Das Projekt nutzt Jupyter Notebooks zur Datenanalyse, Python-Skripte zur Datenverarbeitung und Modellierung sowie Docker zur Bereitstellung einer konsistenten Entwicklungsumgebung.
 
 ## Projektstruktur
 
 ```
-TimeSeriesForecastingTool/
+TimeSeriesForecasting/
 ├── data/
 ├── notebooks/
 ├── scripts/
@@ -45,7 +45,7 @@ TimeSeriesForecastingTool/
 
    ```bash
    git clone <repository-url>
-   cd TimeSeriesForecastingTool
+   cd TimeSeriesForecasting
    ```
 
 2. Baue und starte den Docker-Container:
