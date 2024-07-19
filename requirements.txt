@@ -5,3 +5,4 @@ statsmodels
 fbprophet
 jupyter
 xlrd
+prophet
