@@ -3,7 +3,7 @@
 
 ## Übersicht
 
-**TimeSeriesForecasting** ist ein End-to-End-Projekt zur Analyse und Vorhersage von Zeitreihen mit Python. Das Projekt nutzt Jupyter Notebooks zur Datenanalyse, Python-Skripte zur Datenverarbeitung und Modellierung sowie Docker zur Bereitstellung einer konsistenten Entwicklungsumgebung.
+**TimeSeriesForecasting**  is an end-to-end project for analyzing and forecasting time series data using Python. The project utilizes Jupyter Notebooks for data analysis, Python scripts for data processing and modeling, and Docker to provide a consistent development environment.
 
 ## Projektstruktur
 
@@ -11,62 +11,42 @@
 TimeSeriesForecasting/
 ├── data/
 ├── notebooks/
-├── scripts/
+├──── DeepLearningApproaches/
+├──── GenerativeAIApproaches/
+├──── MachineLearningApproaches/
 ├── models/
 ├── results/
-├── Dockerfile
-├── docker-compose.yml
 ├── requirements.txt
 ├── .gitignore
 └── README.md
 ```
 
-- `data/`: Enthält die Rohdaten.
-- `notebooks/`: Jupyter Notebooks für Datenanalyse und Modellierung.
-- `scripts/`: Python-Skripte für verschiedene Aufgaben.
-- `models/`: Gespeicherte Modelle.
-- `results/`: Ergebnisse und Berichte.
-- `Dockerfile`: Definiert die Docker-Umgebung.
-- `docker-compose.yml`: Orchestriert Docker-Container.
-- `requirements.txt`: Liste der benötigten Python-Pakete.
-- `.gitignore`: Dateien und Verzeichnisse, die von Git ignoriert werden sollen.
-- `README.md`: Projektbeschreibung und Anleitung.
+- `data/`: Contains the raw data.
+- `notebooks/`: Jupyter Notebooks for data analysis and modeling.
+- `scripts/`: Python scripts for various tasks.
+- `models/`: Saved models.
+- `results/`: Results and reports.
+- `requirements.txt`:  List of required Python packages.
+- `.gitignore`: Files and directories to be ignored by Git.
+- `README.md`: Project description and instructions.
 
 ## Installation
 
-### Voraussetzungen
+### Steps
 
-- [Docker](https://www.docker.com/get-started)
-- [Docker Compose](https://docs.docker.com/compose/install/)
-
-### Schritte
-
-1. Klone das Repository:
+1. Clone the repository:
 
    ```bash
    git clone <repository-url>
    cd TimeSeriesForecasting
    ```
 
-2. Baue und starte den Docker-Container:
-
-   ```bash
-   docker-compose up --build
-   ```
-
-3. Öffne den Jupyter-Notebook-Server im Browser:
-
-   ```
-   http://localhost:8888
-   ```
-
 ## Nutzung
 
-1. Lege deine Rohdaten im `data/` Verzeichnis ab.
-2. Erstelle und bearbeite Jupyter Notebooks im `notebooks/` Verzeichnis.
-3. Füge neue Python-Skripte im `scripts/` Verzeichnis hinzu.
-4. Speichere Modelle im `models/` Verzeichnis.
-5. Speichere Ergebnisse und Berichte im `results/` Verzeichnis.
+1. Place your raw data in the `data/` directory.
+2. Create and edit Jupyter Notebooks in the `notebooks/` directory.
+3. Save models in the `models/` directory.
+4. Store results and reports in the `results/` directory.
 
 ## Autor
 
